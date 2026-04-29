@@ -1,2 +1,13 @@
+# Ignore platform-specific boilerplate from language detection
+android/**/* linguist-vendored
+ios/**/* linguist-vendored
+windows/**/* linguist-vendored
+linux/**/* linguist-vendored
+macos/**/* linguist-vendored
+web/**/* linguist-vendored
+
+# Explicitly hide non-Dart files
 *.cpp linguist-detectable=false
 *.c linguist-detectable=false
+*.h linguist-detectable=false
+*.cmake linguist-detectable=false
